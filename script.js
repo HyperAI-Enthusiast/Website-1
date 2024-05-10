@@ -17,5 +17,5 @@ function calculateEMI() {
     const emiRounded = Math.round(emi * 100) / 100;
 
     const resultElement = document.getElementById('result');
-    resultElement.innerText = `Your EMI: $${emiRounded.toFixed(2)} / month`;
+    resultElement.innerText = `Your EMI: $€{emiRounded.toFixed(2)} / month`;
 }
